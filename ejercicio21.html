@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 21 - Texto en Tiempo Real</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .contenedor {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 300px;
+    }
+    input {
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    p {
+      font-size: 16px;
+      color: #333;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <input type="text" id="entrada" placeholder="Escribe aquí">
+    <p id="salida">Texto aparecerá aquí</p>
+  </div>
+  <script type="module" src="js/ej21.js"></script>
+</body>
+</html>

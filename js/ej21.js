@@ -1,10 +1,10 @@
-import { actualizaTexto } from "./utils.js";
+import { actualizarTexto } from "./utils.js";
 
-// Seleccionar elementos
 const entrada = document.querySelector("#entrada");
 const salida = document.querySelector("#salida");
 
-// Agregar evento de entrada
+//escuchamos el evento de entrada
 entrada.addEventListener("input", () => {
-  actualizaTexto(salida, entrada.value || "Texto aparecerá aquí");
-});
+  //actualizamos el texto en el elemento de salida
+  actualizarTexto(salida, entrada.value || "Texto");
+  }); 
